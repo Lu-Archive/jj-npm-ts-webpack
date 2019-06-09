@@ -4,7 +4,9 @@
 
 ## 在src文件中编写js库，index.ts为入口
 
-## 执行 npm run build
+## 执行 npm run dev 可实时检查ts
+
+## 执行 npm run build ,可打包出dist,common文件夹
 
 ## 直接npm发布后，import会直接引入dist的index.js
 
