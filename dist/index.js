@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Fn = /** @class */ (function () {
     function Fn() {
     }
@@ -6,7 +8,5 @@ var Fn = /** @class */ (function () {
     };
     return Fn;
 }());
-console.log(new Fn().test());
-export var $fn = new Fn();
-export default new Fn();
+exports.$fn = new Fn();
 //# sourceMappingURL=index.js.map
